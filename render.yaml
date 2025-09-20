@@ -11,10 +11,6 @@ services:
       sizeGB: 10
     envVars:
       - key: MYSQL_ROOT_PASSWORD
-        value: changeme-root
       - key: MYSQL_DATABASE
-        value: mydb
       - key: MYSQL_USER
-        value: myuser
       - key: MYSQL_PASSWORD
-        value: mypassword
