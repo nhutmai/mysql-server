@@ -14,3 +14,7 @@ services:
         value: supersecret
       - key: MYSQL_DATABASE
         value: myappdb
+      - key: MYSQL_USER
+        value: appuser
+      - key: MYSQL_PASSWORD
+        value: apppassword
