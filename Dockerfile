@@ -6,6 +6,6 @@ ENV MYSQL_DATABASE=myappdb
 ENV MYSQL_USER=appuser
 ENV MYSQL_PASSWORD=apppassword
 
-EXPOSE 3306
+EXPOSE 3333
 
 HEALTHCHECK --interval=10s --timeout=5s --retries=10 CMD mysqladmin ping -h 127.0.0.1 || exit 1
