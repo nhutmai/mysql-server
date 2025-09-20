@@ -11,6 +11,6 @@ services:
       sizeGB: 10
     envVars:
       - key: MYSQL_ROOT_PASSWORD
+        value: supersecret
       - key: MYSQL_DATABASE
-      - key: MYSQL_USER
-      - key: MYSQL_PASSWORD
+        value: myappdb
